@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Ícone de doação</title><desc id="desc">Duas mãos sustentando um coração.</desc>
+  <circle cx="48" cy="48" r="46" fill="#fff7ed"/>
+  <path d="M48 37c-8-12-25-7-25 6 0 13 25 27 25 27s25-14 25-27c0-13-17-18-25-6z" fill="#d98212"/>
+  <path d="M10 59c10 0 15 5 22 11l8 7c3 3 1 8-3 8-2 0-4-1-6-3L17 70c-4-3-7-6-7-11zM86 59c-10 0-15 5-22 11l-8 7c-3 3-1 8 3 8 2 0 4-1 6-3l14-12c4-3 7-6 7-11z" fill="#1f5f4a"/>
+</svg>

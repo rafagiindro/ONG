@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Instituto Caminhos do Bem: ações sociais, voluntariado e campanhas de doação.">
+    <title>Instituto Caminhos do Bem</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Instituto Caminhos do Bem</h1>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+            <span class="menu-toggle__icon" aria-hidden="true">&#9776;</span>
+            <span>Menu</span>
+        </button>
+        <nav id="menu-principal" aria-label="Navegação principal">
+            <a href="index.html" aria-current="page">Início</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="cadastro.html">Cadastro</a>
+            <details class="menu-dropdown">
+                <summary>Participe</summary>
+                <div class="menu-dropdown__links">
+                    <a href="projetos.html">Conheça os projetos</a>
+                    <a href="cadastro.html">Faça seu cadastro</a>
+                </div>
+            </details>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Quem somos</h2>
+
+            <picture>
+                <source srcset="../img/acao-social.webp" type="image/webp">
+                <source srcset="../img/acao-social.jpg" type="image/jpeg">
+                <img
+                    src="../img/acao-social.png"
+                    alt="Voluntários do Instituto Caminhos do Bem entregando uma cesta de alimentos a uma família durante uma ação social"
+                    width="1200"
+                    height="800"
+                    loading="eager"
+                >
+            </picture>
+
+            <p>
+                O Instituto Caminhos do Bem é uma ONG voltada ao apoio de pessoas
+                e famílias em situação de vulnerabilidade.
+            </p>
+
+            <p>
+                Nosso trabalho é realizado por meio de campanhas de doação,
+                ações sociais e atividades voluntárias.
+            </p>
+        </section>
+
+        <section>
+            <h2>Nossa missão</h2>
+            <p>
+                Promover apoio social e contribuir para melhorar a qualidade de vida
+                de pessoas e famílias que precisam de ajuda.
+            </p>
+        </section>
+
+        <section>
+            <h2>Como ajudamos</h2>
+            <p>
+                Realizamos arrecadação de alimentos e roupas, campanhas solidárias,
+                apoio a famílias em situação de vulnerabilidade e ações com voluntários.
+            </p>
+
+            <div class="grade-acoes">
+                <article class="card-acao">
+                    <img class="icone-acao" src="../img/icones/doacao.svg" alt="Ícone de mãos sustentando um coração, representando doações" width="96" height="96">
+                    <h3>Doações</h3>
+                    <span class="badge badge--verde">Apoio contínuo</span>
+                    <p>Recebemos contribuições para apoiar as campanhas sociais.</p>
+                </article>
+
+                <article class="card-acao">
+                    <img class="icone-acao" src="../img/icones/voluntariado.svg" alt="Ícone de grupo de pessoas, representando voluntariado" width="96" height="96">
+                    <h3>Voluntariado</h3>
+                    <span class="badge badge--laranja">Participação</span>
+                    <p>Voluntários ajudam na organização e execução das ações.</p>
+                </article>
+
+                <article class="card-acao">
+                    <img class="icone-acao" src="../img/icones/alimentos.svg" alt="Ícone de cesta com alimentos para doação" width="96" height="96">
+                    <h3>Alimentos</h3>
+                    <span class="badge badge--verde">Prioridade social</span>
+                    <p>Arrecadamos alimentos não perecíveis para famílias atendidas.</p>
+                </article>
+
+                <article class="card-acao">
+                    <img class="icone-acao" src="../img/icones/roupas.svg" alt="Ícone de camiseta, representando campanha de roupas" width="96" height="96">
+                    <h3>Roupas</h3>
+                    <span class="badge badge--laranja">Campanha ativa</span>
+                    <p>Campanhas recebem roupas, calçados e cobertores em bom estado.</p>
+                </article>
+            </div>
+
+            <p><a class="botao-link" href="projetos.html">Conheça nossos projetos</a></p>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <address>
+                <p><strong>Telefone:</strong> (11) 99999-9999</p>
+                <p><strong>E-mail:</strong> <a href="mailto:contato@caminhosdobem.org">contato@caminhosdobem.org</a></p>
+                <p><strong>Localização:</strong> São Bernardo do Campo - SP</p>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>Instituto Caminhos do Bem - 2026</p>
+    </footer>
+    <script src="../js/app.js" type="module"></script>
+</body>
+</html>

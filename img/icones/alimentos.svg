@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Ícone de alimentos</title><desc id="desc">Cesta com alimentos para doação.</desc>
+  <circle cx="48" cy="48" r="46" fill="#fff7ed"/>
+  <path d="M26 37h44l-6 38H32l-6-38z" fill="#d98212"/>
+  <path d="M34 35c1-12 7-18 14-18s13 6 14 18" fill="none" stroke="#1f5f4a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M38 44v22M48 44v22M58 44v22" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M44 29c-5-8-1-14 4-14 3 0 5 2 5 5 0 5-4 8-9 9z" fill="#79a94b"/>
+</svg>
