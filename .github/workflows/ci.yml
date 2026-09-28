@@ -23,5 +23,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build production
-        run: npm run build
+      - name: Build production and measure minification
+        run: npm run build:measure
+
+      - name: Install browser for tests
+        run: npx playwright install --with-deps chromium
+
+      - name: Test production build
+        run: npm test

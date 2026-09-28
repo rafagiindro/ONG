@@ -1,0 +1,312 @@
+{
+  "measuredAt": "2026-09-28T00:04:43.132Z",
+  "node": "v24.19.0",
+  "method": "Duas builds do mesmo código/configuração, com minificação HTML/CSS/JS desativada ou ativada. Bytes em disco, sem gzip/Brotli. Imagens externas, sem inline ou recompressão.",
+  "rows": [
+    {
+      "category": "HTML",
+      "source": 20334,
+      "unminified": 20534,
+      "minified": 14199,
+      "reductionBytes": 6335,
+      "reductionPercent": 30.851271062627838,
+      "sourceToBuildPercent": 30.171141929772794
+    },
+    {
+      "category": "CSS",
+      "source": 10628,
+      "unminified": 10628,
+      "minified": 7579,
+      "reductionBytes": 3049,
+      "reductionPercent": 28.68837034249153,
+      "sourceToBuildPercent": 28.68837034249153
+    },
+    {
+      "category": "JavaScript",
+      "source": 17233,
+      "unminified": 17955,
+      "minified": 14770,
+      "reductionBytes": 3185,
+      "reductionPercent": 17.73879142300195,
+      "sourceToBuildPercent": 14.292346080194976
+    },
+    {
+      "category": "Código",
+      "source": 48195,
+      "unminified": 49117,
+      "minified": 36548,
+      "reductionBytes": 12569,
+      "reductionPercent": 25.58991795101492,
+      "sourceToBuildPercent": 24.166407303662204
+    },
+    {
+      "category": "Imagens",
+      "source": 1491432,
+      "unminified": 1491432,
+      "minified": 1491432,
+      "reductionBytes": 0,
+      "reductionPercent": 0,
+      "sourceToBuildPercent": 0
+    },
+    {
+      "category": "Total",
+      "source": 1539627,
+      "unminified": 1540549,
+      "minified": 1527980,
+      "reductionBytes": 12569,
+      "reductionPercent": 0.8158779759683075,
+      "sourceToBuildPercent": 0.7564819271161132
+    }
+  ],
+  "source": [
+    {
+      "path": "html/cadastro.html",
+      "bytes": 9541,
+      "sha256": "59cfa4a9e97c7c4f8b0b0b01d8d73ad3ee7ae5c4fb14854c53cd8ccb620f5308"
+    },
+    {
+      "path": "html/index.html",
+      "bytes": 5200,
+      "sha256": "030b84623ad8fdf7af70a1151f5f9ae8ebde6de9a7537f38c5e0f05cf6da2c0a"
+    },
+    {
+      "path": "html/projetos.html",
+      "bytes": 4435,
+      "sha256": "162eb5d4db8063b3a1ef270f67fd0f570fe8a23799e8f7bc299a4d76a44bf34e"
+    },
+    {
+      "path": "css/style.css",
+      "bytes": 10628,
+      "sha256": "3d2a2a04e15663a84ebf5c0fdfade669c84a3891a043ee4d7a3aec9f64a79e8f"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 2413,
+      "sha256": "44685fcf5a0350f575ad31d8a95983546d758c6020d0bb8d5724cb6c27782ddf"
+    },
+    {
+      "path": "js/mascaras.js",
+      "bytes": 1116,
+      "sha256": "dfc1f97486ca5af2ec3b1ff0c551b36ab7e8012027f1546b28830cd1146e1f81"
+    },
+    {
+      "path": "js/modules/form.js",
+      "bytes": 1110,
+      "sha256": "a7798c8172ca2e47b0c191dd76057205565604f58fa2217bb275b3ca97ab3288"
+    },
+    {
+      "path": "js/modules/storage.js",
+      "bytes": 949,
+      "sha256": "73ef057f7295658a38d7b0b647169ce44fcc792a1397c10496745c56920c86fa"
+    },
+    {
+      "path": "js/modules/templates.js",
+      "bytes": 11645,
+      "sha256": "cd1902a6373c8a42d12a1e379257d9926648fe8481bb545d9226844728cdc09f"
+    },
+    {
+      "path": "img/acao-social.jpg",
+      "bytes": 132695,
+      "sha256": "29790a7c19bb7de81fbeb5d7c55897b76689f8cf9bd93e0d50d3d429956ec151"
+    },
+    {
+      "path": "img/acao-social.png",
+      "bytes": 1279772,
+      "sha256": "42e2329151c57d049fb081558206a05ffe542c5d3e5baa2ca78a9e088d0c4295"
+    },
+    {
+      "path": "img/acao-social.webp",
+      "bytes": 76700,
+      "sha256": "973875890e14863efabe8e2166f74653cc2cc75fa1f930983eb9b3e805137577"
+    },
+    {
+      "path": "img/icones/alimentos.svg",
+      "bytes": 607,
+      "sha256": "2b399007e5cd595e4ec7334a750ad5916632276111a32b03717fb7bdb18f3e9d"
+    },
+    {
+      "path": "img/icones/doacao.svg",
+      "bytes": 536,
+      "sha256": "3f3ce7be4573d90d372c5985a8d763cb8e365db11f2956bd84fac665dffb9de6"
+    },
+    {
+      "path": "img/icones/roupas.svg",
+      "bytes": 479,
+      "sha256": "a197ac87abcfeb9d6de27a4dadc92f48e7a6d2f1f8b355337f705e9f69833a89"
+    },
+    {
+      "path": "img/icones/voluntariado.svg",
+      "bytes": 643,
+      "sha256": "45990092f21738bf886e09e14eb24a02a8488930e0e2be285c4302e54b84945a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 382,
+      "sha256": "4fd4220c45cbb49ecb4b71d50d8a8d068767ea7d6f7cf382ab3c49ace0dfbc6e"
+    },
+    {
+      "path": "projetos.html",
+      "bytes": 388,
+      "sha256": "638592ef0b3ba6620253e2d200e8f2d38a4491519c698b9addbfa53506b9c114"
+    },
+    {
+      "path": "cadastro.html",
+      "bytes": 388,
+      "sha256": "5da7492de564a765e2a79c272dd633d2cb95b571f57fe85199ef3e1ecb5f45cf"
+    }
+  ],
+  "unminified": [
+    {
+      "path": "assets/acao-social-C0ROlU3l.png",
+      "bytes": 1279772,
+      "sha256": "42e2329151c57d049fb081558206a05ffe542c5d3e5baa2ca78a9e088d0c4295"
+    },
+    {
+      "path": "assets/acao-social-cPqsQIys.jpg",
+      "bytes": 132695,
+      "sha256": "29790a7c19bb7de81fbeb5d7c55897b76689f8cf9bd93e0d50d3d429956ec151"
+    },
+    {
+      "path": "assets/acao-social-SDAZDzMK.webp",
+      "bytes": 76700,
+      "sha256": "973875890e14863efabe8e2166f74653cc2cc75fa1f930983eb9b3e805137577"
+    },
+    {
+      "path": "assets/alimentos-D0DoHX-S.svg",
+      "bytes": 607,
+      "sha256": "2b399007e5cd595e4ec7334a750ad5916632276111a32b03717fb7bdb18f3e9d"
+    },
+    {
+      "path": "assets/app-B84MPfvc.js",
+      "bytes": 17955,
+      "sha256": "2e137503e06946b1493f6145b46e55be968d25b2a8477a9923e653bfc77601f9"
+    },
+    {
+      "path": "assets/app-DDnsG__A.css",
+      "bytes": 10628,
+      "sha256": "3d2a2a04e15663a84ebf5c0fdfade669c84a3891a043ee4d7a3aec9f64a79e8f"
+    },
+    {
+      "path": "assets/doacao-B9NCsiTR.svg",
+      "bytes": 536,
+      "sha256": "3f3ce7be4573d90d372c5985a8d763cb8e365db11f2956bd84fac665dffb9de6"
+    },
+    {
+      "path": "assets/roupas-CpsDYUwc.svg",
+      "bytes": 479,
+      "sha256": "a197ac87abcfeb9d6de27a4dadc92f48e7a6d2f1f8b355337f705e9f69833a89"
+    },
+    {
+      "path": "assets/voluntariado-Bp9MuhUu.svg",
+      "bytes": 643,
+      "sha256": "45990092f21738bf886e09e14eb24a02a8488930e0e2be285c4302e54b84945a"
+    },
+    {
+      "path": "cadastro.html",
+      "bytes": 388,
+      "sha256": "5da7492de564a765e2a79c272dd633d2cb95b571f57fe85199ef3e1ecb5f45cf"
+    },
+    {
+      "path": "html/cadastro.html",
+      "bytes": 9584,
+      "sha256": "bf99c8aa740e4a5fc7385508b92e0d490f73880b90288d4487dee6ce22584fb7"
+    },
+    {
+      "path": "html/index.html",
+      "bytes": 5299,
+      "sha256": "acbc5b0f7b914d17017023f3698a9a994e1d86822680d8e054b84bb7cd972e6f"
+    },
+    {
+      "path": "html/projetos.html",
+      "bytes": 4493,
+      "sha256": "92cc7a3a7b51082b07831028a6d0ac0031288a480c7895af5dc8bbe4ae81df1f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 382,
+      "sha256": "4fd4220c45cbb49ecb4b71d50d8a8d068767ea7d6f7cf382ab3c49ace0dfbc6e"
+    },
+    {
+      "path": "projetos.html",
+      "bytes": 388,
+      "sha256": "638592ef0b3ba6620253e2d200e8f2d38a4491519c698b9addbfa53506b9c114"
+    }
+  ],
+  "minified": [
+    {
+      "path": "assets/acao-social-C0ROlU3l.png",
+      "bytes": 1279772,
+      "sha256": "42e2329151c57d049fb081558206a05ffe542c5d3e5baa2ca78a9e088d0c4295"
+    },
+    {
+      "path": "assets/acao-social-cPqsQIys.jpg",
+      "bytes": 132695,
+      "sha256": "29790a7c19bb7de81fbeb5d7c55897b76689f8cf9bd93e0d50d3d429956ec151"
+    },
+    {
+      "path": "assets/acao-social-SDAZDzMK.webp",
+      "bytes": 76700,
+      "sha256": "973875890e14863efabe8e2166f74653cc2cc75fa1f930983eb9b3e805137577"
+    },
+    {
+      "path": "assets/alimentos-D0DoHX-S.svg",
+      "bytes": 607,
+      "sha256": "2b399007e5cd595e4ec7334a750ad5916632276111a32b03717fb7bdb18f3e9d"
+    },
+    {
+      "path": "assets/app-CNmIOcp7.js",
+      "bytes": 14770,
+      "sha256": "dd1f2dc21a712c8220ad35a0556202a29000ddfc2e8fb7a88935f8afef396931"
+    },
+    {
+      "path": "assets/app-Wt49QV-U.css",
+      "bytes": 7579,
+      "sha256": "baa3a0fad74286ee717db99169c59613edfd8681eb46d797559def0119fc578a"
+    },
+    {
+      "path": "assets/doacao-B9NCsiTR.svg",
+      "bytes": 536,
+      "sha256": "3f3ce7be4573d90d372c5985a8d763cb8e365db11f2956bd84fac665dffb9de6"
+    },
+    {
+      "path": "assets/roupas-CpsDYUwc.svg",
+      "bytes": 479,
+      "sha256": "a197ac87abcfeb9d6de27a4dadc92f48e7a6d2f1f8b355337f705e9f69833a89"
+    },
+    {
+      "path": "assets/voluntariado-Bp9MuhUu.svg",
+      "bytes": 643,
+      "sha256": "45990092f21738bf886e09e14eb24a02a8488930e0e2be285c4302e54b84945a"
+    },
+    {
+      "path": "cadastro.html",
+      "bytes": 365,
+      "sha256": "e0a778a56aaeb935103be867819da94d07dec460c63c280850b12fa1b29db688"
+    },
+    {
+      "path": "html/cadastro.html",
+      "bytes": 5829,
+      "sha256": "38e068a4cb52e5ed4e376b704eeaec92aecc18c50e518765f7639473b29bacb4"
+    },
+    {
+      "path": "html/index.html",
+      "bytes": 3938,
+      "sha256": "01f917a38f0fff18c91b35a0b161ace571c54475f12ffc84de5202f718ed1cb9"
+    },
+    {
+      "path": "html/projetos.html",
+      "bytes": 3343,
+      "sha256": "20f2b9b47a488cb8b483d84594ac2e120e2ee2857681857747a0bd04d71b950c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 359,
+      "sha256": "7a33ab57fd9c71187ddcc18c04ffa84db1f2506e1e06ea06275a64058b7bb7f0"
+    },
+    {
+      "path": "projetos.html",
+      "bytes": 365,
+      "sha256": "c15a34b5e6f9fc766743eb070b65ce2ef79815ca4e6af78061e266819981bae4"
+    }
+  ]
+}

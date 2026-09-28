@@ -29,24 +29,32 @@ function configurarMenu() {
     });
 }
 
-function renderizarAplicacao() {
+function renderizarAplicacao(moverFoco = false) {
     const rota = obterRota();
     const titulo = obterTitulo(rota);
     document.title = titulo;
     document.body.innerHTML = layoutBase(titulo, obterConteudo(rota), rota);
     configurarMenu();
     configurarFormulario();
+    if (moverFoco) {
+        const principal = document.getElementById("app");
+        principal.setAttribute("tabindex", "-1");
+        principal.focus();
+    }
 }
 
 document.addEventListener("click", function (evento) {
     const link = evento.target.closest("a");
     const linkInterno = link && link.protocol === window.location.protocol && link.host === window.location.host;
-    if (!linkInterno || link.target === "_blank") return;
+    const paginaDoSite = link && /\/(index|projetos|cadastro)\.html$/.test(link.pathname);
+    if (!linkInterno || !paginaDoSite || link.hash || link.hasAttribute("download") ||
+        (link.target && link.target !== "_self") || evento.defaultPrevented ||
+        evento.button !== 0 || evento.ctrlKey || evento.metaKey || evento.shiftKey || evento.altKey) return;
 
     evento.preventDefault();
     window.history.pushState({}, "", link.href);
-    renderizarAplicacao();
+    renderizarAplicacao(true);
 });
 
-window.addEventListener("popstate", renderizarAplicacao);
+window.addEventListener("popstate", () => renderizarAplicacao(true));
 renderizarAplicacao();
