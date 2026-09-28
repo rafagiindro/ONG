@@ -1,3 +1,9 @@
 node_modules/
 dist/
 .vercel
+
+.build-unminified/
+playwright-report/
+test-results/
+reports/*.png
+reports/browser-tests.json

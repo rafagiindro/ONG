@@ -5,9 +5,14 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev": "vite",
+    "build:measure": "vite build --mode measurement && vite build && node scripts/measure.mjs",
+    "test": "playwright test"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.63.0",
     "html-minifier-terser": "^7.2.0",
     "vite": "^7.1.7"
   }

@@ -21,13 +21,12 @@ export function preencherCadastro(dados) {
     if (!dados) return;
 
     Object.entries(dados).forEach(function ([campo, valor]) {
-        const elemento = document.querySelector(`[name="${campo}"]`);
-        if (!elemento) return;
-
-        if (elemento.type === "radio") {
-            elemento.checked = elemento.value === valor;
-        } else {
-            elemento.value = valor;
-        }
+        document.querySelectorAll(`[name="${CSS.escape(campo)}"]`).forEach(function (elemento) {
+            if (elemento.type === "radio") {
+                elemento.checked = elemento.value === valor;
+            } else {
+                elemento.value = valor;
+            }
+        });
     });
 }
